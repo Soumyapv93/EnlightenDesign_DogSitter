@@ -1,0 +1,134 @@
+.Jumbo{
+	
+	background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url('main-banner.png');
+    
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 700px;
+}
+
+.--Quicksand-Bold-700 {
+
+  font-family: Quicksand;
+  font-size: 45px;
+  font-weight: 700;
+  margin-top: 0;
+  margin-left: 15%;
+  padding-top: 200px;
+  color: #ffffff;
+}
+.Find-a-trusted-sitte{
+
+  margin-left: 15%;
+  font-family: Quicksand;
+  font-size: 24px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.42;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.Learn-More-Copy-3{
+margin-left: 15%;
+  font-family: Quicksand;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 2px;
+  text-decoration: none;
+  padding: 10px;
+  height: 24px;
+  width: 85px;
+  font-weight: 700;
+  background: #de6c17;
+  color: #ffffff;
+}
+
+.services{
+	height: 765px;
+	text-align: center;
+
+}
+
+.Our-Services {
+
+  font-family: Quicksand;
+  font-size: 45px;
+  font-weight: bold;
+
+  color: #36413c;
+}
+
+.Local-trusted-pet {
+  
+
+  font-family: Quicksand;
+  font-size: 24px;
+  font-weight: 500;
+
+  line-height: 1.42;
+
+  color: #5e6e66;
+}
+
+.Mask1{
+	width: 370px;
+  height: 490px;
+  margin: 35px 15px 0 60px;
+  padding: 0 0 13.5px;
+  border-radius: 4px;
+  box-shadow: 0 0 2px 0.5px rgba(0, 0, 0, 0.18);
+  background-color: #ffffff;
+}
+
+
+
+.cards{
+	display: flex;
+	justify-content: center;
+}
+
+.cardImage{
+	width: 370px;
+}
+ .cardHead{
+
+  font-family: Quicksand;
+  font-size: 28px;
+  font-weight: bold;
+  color: #36413c;
+ }
+
+ .para{
+ 
+  font-family: Quicksand;
+  font-size: 18px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #5e6e66;
+ }
+
+.Learn-More-{
+	color: #de6c17;
+	text-decoration: none;
+  
+  font-family: Quicksand;
+
+
+}
+
+
+
+
+      @media screen and (max-width: 768px){
+
+.cards{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+      }
